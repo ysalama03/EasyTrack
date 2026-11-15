@@ -1,8 +1,6 @@
 import { Component, input, } from '@angular/core';
 import { Task } from './task/task';
-import { TaskType } from './task.model';
 import { Addtask } from './task/addtask/addtask';
-import { NewTaskDataType } from './task.model';
 import { TasksService } from './tasks.service';
 
 @Component({
